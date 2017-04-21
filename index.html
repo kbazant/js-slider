@@ -9,6 +9,10 @@
 			font-size: 24px;
 			color: white;
 		}
+		
+		#slider img {
+			width: 100%;
+		}
 	</style>
 
 	<script type="text/javascript">
@@ -21,6 +25,8 @@
 			var picturefile = "<img src=\"slides/slide" + number + ".jpg\"  />";
 
 			document.getElementById("slider").innerHTML = picturefile;
+			
+			setTimeout("changeslide()", 5000);
 
 		}
 	</script>

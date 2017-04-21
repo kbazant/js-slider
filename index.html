@@ -17,6 +17,11 @@
 		function changeslide() {
 			number++;
 			if (number > 5) number = 1;
+
+			var picturefile = "<img src=\"slides/slide" + number + ".jpg\"  />";
+
+			document.getElementById("slider").innerHTML = picturefile;
+
 		}
 	</script>
 

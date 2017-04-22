@@ -34,7 +34,7 @@
 			$("#slider").fadeIn(500);
 
 			setTimeout("changeslide()", 5000);
-
+			setTimeout("hide()", 4500);
 		}
 	</script>
 
@@ -43,6 +43,12 @@
 <body onload="changeslide()">
 
 	<div id="slider">
+
+		<span onclick="setslide(1)" style="cursor: pointer;">[1]</span>
+		<span onclick="setslide(2)" style="cursor: pointer;">[2]</span>
+		<span onclick="setslide(3)" style="cursor: pointer;">[3]</span>
+		<span onclick="setslide(4)" style="cursor: pointer;">[4]</span>
+		<span onclick="setslide(5)" style="cursor: pointer;">[5]</span>
 
 	</div>
 

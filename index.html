@@ -20,6 +20,10 @@
 	<script type="text/javascript">
 		var number = Math.floor(Math.random() * 5) + 1;
 
+		function hide() {
+			$("#slider").fadeOut(500);
+		}
+
 		function changeslide() {
 			number++;
 			if (number > 5) number = 1;
